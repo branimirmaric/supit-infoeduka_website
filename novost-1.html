@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./library/img/Algebra-logo.png" />
+    <title>SUPIT - projektni zadatak</title>
+    <link rel="stylesheet" type="text/css" href="./library/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./library/css/animation.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./library/fancybox/jquery.fancybox.min.css" />
+    <!-- ============================-> MODAL <-============================ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a class="navbar-brand" href="./index.html">
+        <img class="logo ml-4" src="./library/img/Algebra-logo.png" />
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ml-3" role="presentation"><a class="nav-link active" href="./index.html"><i class="fa fa-home"></i>Početna</a></li>
+          <li class="nav-item ml-3" role="presentation"><a class="nav-link" href="./o-nama.html"><i class="fa fa-comments"></i>O nama</a></li>
+          <li class="nav-item ml-3" role="presentation"><a class="nav-link" href="./novosti.html"><i class="fa fa-info-circle"></i>Novosti</a></li>
+          <li class="nav-item ml-3" role="presentation"><a class="nav-link" href="./nastavniPlan.html"><i class="fa fa-info-circle"></i>Nastavni plan</a></li>
+          <li class="nav-item ml-3" role="presentation"><a class="nav-link" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope"></i>Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="modal animate__animated animate__zoomIn" id="myModal" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <form action="http://www.fulek.com/VUA/SUPIT/ContactUs" method="post" id="forma">
+            <div class="modal-header">
+              <h3><i class="fa fa-envelope" style="color: turquoise"></i>&nbsp;Kontaktirajte nas</h3>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <label>Puno ime:</label>
+              <input type="text" name="name" id="name" class="form-control" style="width: 100%" required autocomplete="off" />
+              <label>E-mail:</label>
+              <input type="email" name="email" id="email" class="form-control" style="width: 100%" required autocomplete="off" />
+              <label>Važnost poruke</label>
+              <select name="importance" id="importance" class="form-control" style="width: 100%; cursor:pointer" required>
+                <option value="visoka">Visoka</option>
+                <option value="niska">Niska</option>
+              </select>
+              <label>Vaša poruka:</label>
+              <textarea name="message" id="message" cols="30" rows="3" class="form-control" style="width: 100%" required></textarea>
+              <label>Primaj newsletter:</label>
+              <input type="checkbox" name="newsletter" id="newsletter" class="align-middle form-check-label" style="cursor: pointer" />
+              <br />
+            </div>
+            <div class="modal-footer justify-content-start">
+              <button type="submit" class="btn btn-primary" form="forma">Pošalji</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Odustani</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <section class="title animate__animated animate__slideInDown">
+      <img src="./library/img/novost1.jpg" alt="novost1" />
+      <h3 class="textnaslici"><b>Nagrađujemo izvrsnost: Objavljujemo dobitnike stipendijskog natječaja šk.god. 2018./2019.!</b></h3>
+    </section>
+
+    <div class="container text-center">
+      <section id="novost1">
+        <div class="animate__animated animate__slideInUp">
+          <h3><b>WorldSkills natjecanje - Kazan 2019.</b></h3>
+          <hr class="goldenHr" />
+          <br />
+        </div>
+        <p class="text-left">
+          Nakon godinu dana priprema za natjecanje WorldSkills Kazan 2019 na
+          kojem je sudjelovalo 1300 natjecatelja iz cijelog svijeta, trud se
+          itekako isplatio. Josip, student 3. godine preddiplomskog studija
+          sistemskog inženjerstva osvojio je 12. mjesto u vještini IT Networks
+          and System Administration te osvojio medalju izvrsnosti! Čestitke
+          Josipu ali i njegovim/našim mentorima koji su ga pripremali za ovo
+          natjecanje – voditelju studija sistemskog inženjerstva Silviju Papiću,
+          voditelju katedre za operacijske sustave – Vedranu Dakiću i asistentu
+          na studiju sistemskog inženjerstva – Jasminu Redžepagiću. Čestitke i
+          našem studentu 3.godine preddiplomskog studija programskog
+          inženjerstva Josipu Horvatu i mentoru voditelju katedre za programsko
+          inženjerstvo - Goranu Đambiću na osvojenom 16.mjestu u vještini IT
+          Software Solutions for Business.
+        </p>
+        <br />
+      </section>
+    </div>
+
+    <div class="novosti1-slike">
+      <div class="row text-center">
+        <div class="col">
+          <a class="novosti-1" data-fancybox="gallery" href="./library/img/galerija1.jpg">
+            <div class="imageBox">
+              <img src="./library/img/galerija1.jpg" alt="galerija1" />
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="novosti-1" data-fancybox="gallery" href="./library/img/galerija2.jpg">
+            <div class="imageBox">
+              <img src="./library/img/galerija2.jpg" alt="galerija2" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center">
+          <video width="100%" controls >
+            <source src="./library/video/worldskills.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <img src="./library/img/zaiskri-bg.jpg" src="zaiskri" />
+      <h1>BUDI IZVRSTAN U ONOM ŠTO VOLIŠ</h1>
+      <br />
+      <h2>ZAISKRI</h2>
+    </footer>
+
+    <script src="./library/jquery/jquery-3.5.1.min.js"></script>
+    <script src="./library/fancybox/jquery.fancybox.min.js"></script>
+  </body>
+</html>

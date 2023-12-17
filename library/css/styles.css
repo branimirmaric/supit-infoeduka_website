@@ -1,0 +1,304 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 70px;
+}
+
+/* ============================-> index.html <-============================ */
+.navbar {
+  background-color: #000;
+  /* position: sticky;  */
+  /* umjesto fixed-top -> link radi, ali animacija ide preko navbara (sto ne zelimo) */
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ul > li > a:hover {
+  color: yellow;
+}
+
+.nav-link > .fa {
+  color: goldenrod;
+  margin-right: 4px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.video {
+  position: fixed;
+  margin-top: auto;
+}
+
+.typing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#typewriter {
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 2px #000;
+}
+
+/* ============================-> o-nama.html <-============================ */
+.navbar-two li {
+  margin-left: 25px;
+}
+
+.navbar-two > li > a {
+  color: goldenrod;
+}
+
+.goldenHr {
+  background-color: goldenrod;
+  border: 1px solid yellow;
+  width: 75%;
+}
+
+#kampus {
+  height: 350px;
+  margin-top: 4rem;
+}
+
+#kampus img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#naseVrijednosti h3:first-of-type,
+#povijest h3:first-of-type,
+#algebraGrupa h3:first-of-type,
+#kakoDoNas > div > h3 {
+  color: #c61160;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.naseVrijednosti,
+.povijest,
+.algebraGrupa {
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  padding: 50px 310px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: rgb(245, 245, 245);
+}
+
+.sekcija,
+.povijestBox,
+.certifikati {
+  margin: 4px;
+}
+
+.sekcija h3,
+.povijestBox h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.sekcija p,
+.povijestBox p {
+  font-size: 13px;
+  margin-bottom: 2rem;
+}
+
+.certifikati {
+  padding: 0px 210px;
+}
+
+.certifikati h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.img-row1 {
+  width: 30%;
+}
+
+.autodesk-img {
+  width: 90%;
+}
+
+.img-row2 {
+  width: 65%;
+}
+
+.ms-img {
+  width: 50%;
+}
+
+.kakoDoNas > div > h3 {
+  margin-bottom: 20px;
+}
+
+.googleMap > div > div > h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+blockquote {
+  padding-left: 70px;
+  font-size: 14px;
+}
+
+.box1,
+.box2 {
+  background: white;
+  padding: 20px;
+  margin: 5px 10px;
+}
+
+h3 > span,
+.ovdje {
+  color: blue;
+}
+
+.googleMap {
+  background-image: url(../img/kakoDoNas.jpg);
+  width: 100%;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 5px;
+}
+
+.karta {
+  padding: 0px 130px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer > img {
+  height: 400px;
+  width: 100%;
+}
+
+footer h1 {
+  margin-top: -17%;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px #000;
+}
+footer h2 {
+  color: #c61160;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px #000;
+}
+
+.footer-copy {
+  position: absolute;
+}
+/* ============================-> novosti.html <-============================ */
+#novosti > h3 {
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+.novost img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.novost {
+  border-radius: 50%;
+  border: 15px solid rgb(231, 231, 231);
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  margin: 10px auto;
+  box-shadow: 0 0 10px #676767;
+}
+
+.novost p {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+  margin: 0;
+  font-size: 13px;
+}
+
+.okvir123 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.okvir123 > p:first-of-type {
+  color: yellow;
+}
+
+.novost .okvir123 {
+  width: 200px;
+}
+/* ============================-> novosti-1.html <-============================ */
+.title > img {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  margin-top: 4rem;
+}
+
+#novost1,
+#novost2 {
+  margin-top: 150px;
+}
+#novost3 {
+  margin-top: 20px;
+}
+
+.novosti1-slike img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 100px;
+}
+
+.novosti1-slike .row {
+  max-width: 50%;
+  margin: 30px auto;
+}
+
+.imageBox:hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 0 10px #000;
+}
+/* ============================-> novosti-2.html <-============================ */
+.textnaslici {
+  text-align: center;
+  margin: auto;
+  color: white;
+  margin-top: -200px;
+  margin-bottom: 180px;
+}
+/* ============================-> nastavniPlan.html <-============================ */
+.nastavni-plan {
+  font-size: 2rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.kolegij {
+  margin-top: 5rem;
+}

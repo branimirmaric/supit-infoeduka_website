@@ -1,0 +1,13 @@
+.animate__animated.animate__slideInUp,
+.animate__animated.animate__slideInRight {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__slideInDown {
+  --animate-duration: 1.5s;
+}
+
+.animate__animated.animate__bounceInLeft,
+.animate__animated.animate__zoomIn {
+  --animate-duration: 1s;
+}
